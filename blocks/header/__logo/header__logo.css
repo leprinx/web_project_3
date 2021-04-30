@@ -12,6 +12,6 @@
     .header__logo{
       max-width: 156px;
       padding: 0 0 0 16px;
-      object-fit: contain
+      object-fit: contain;
     }
   }
