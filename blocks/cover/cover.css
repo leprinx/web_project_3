@@ -1,0 +1,42 @@
+@import url("__content/cover__content.css");
+@import url("__content-title/cover__content-title.css");
+@import url("__content-subtitle/cover__content-subtitle.css");
+
+.cover{
+    position: relative;
+    max-width: 1184px;
+    margin: auto;
+    color: white;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+  }
+  .cover::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: url("../../images/cover/cover-route-66.jpg");
+    background-size: cover;
+    opacity: 0.8;
+    box-sizing: border-box;
+  }
+  .cover:hover::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: url("../../images/cover/cover-route-66.jpg");
+    background-size: cover;
+    opacity: 0.3;
+    box-sizing: border-box;
+  }
+  @media screen and (width: 1184){
+    .cover{
+      width: 100%;
+    }
+  }

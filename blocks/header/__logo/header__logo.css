@@ -1,0 +1,17 @@
+.header__logo{
+  object-fit: contain;
+}
+@media screen and (max-width: 768px){
+  .header__logo{
+    padding: 0 0 0 24px;
+    object-fit: contain;
+  }
+}
+  
+  @media screen and (max-width: 320px){
+    .header__logo{
+      max-width: 156px;
+      padding: 0 0 0 16px;
+      object-fit: contain
+    }
+  }

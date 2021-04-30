@@ -1,0 +1,26 @@
+.container_size_m{
+    padding: 0 148px;
+    margin: auto;
+    max-width: 984px;
+  }
+  @media screen and (max-width: 1024px){
+    .container_size_m{
+      max-width: 928px;
+      padding: 0 48px;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .container_size_m{
+      width: 100%;
+      margin: 0;
+      padding: 0;  
+    }
+  }
+  @media screen and (max-width: 425px){
+    .container_size_m{
+      width: 100%;
+      margin: 0;
+      padding: 0;    
+    }
+  }
+  

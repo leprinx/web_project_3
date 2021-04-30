@@ -1,0 +1,22 @@
+@import url("./__lang-link/languages__lang-link.css");
+
+.languages{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 18px;
+    padding: 12px 0 0 0;
+    margin: 0;
+  }
+
+@media screen and (max-width: 768px){
+  .languages{
+    padding: 0 24px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .languages{
+    padding: 0 16px 0 0;
+  }
+}

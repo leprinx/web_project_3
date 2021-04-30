@@ -1,0 +1,22 @@
+@import url("__list/places__list.css");
+@import url("__list-location/places__list-location.css");
+@import url("__list-title/places__list-title.css");
+@import url("__list-website/places__list-website.css");
+@import url("__list-website-heading/places__list-website-heading.css");
+@import url("__list-link/places__list-link.css");
+@import url("__list-image/places__list-image.css");
+@import url("__list-description/places__list-description.css");
+@import url("__list-description-element/places__list-description-element.css");
+
+.places{
+    max-width: 984px;
+    color: white;
+    padding-top: 92px;
+    max-width: 100%;
+  }
+  @media screen and (max-width: 650px){
+    .places{
+      display: flex;
+      flex-direction: column;
+    }
+  }
