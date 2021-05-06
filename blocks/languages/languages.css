@@ -1,0 +1,23 @@
+@import url("__lang-link/languages__lang-link.css");
+@import url("__list-item/languages__list-item.css");
+.languages {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 18px;
+    padding-top: 46px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .languages {
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .languages {
+        padding-top: 30px;
+        padding-right: 16px;
+    }
+}

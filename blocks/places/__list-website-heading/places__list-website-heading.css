@@ -1,0 +1,16 @@
+.places__list-website-heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 2.4px;
+    font-weight: 900;
+    color: rgba(170, 170, 170, 1);
+}
+
+@media screen and (max-width: 465px) {
+    .places__list-website-heading {
+        line-height: 1;
+    }
+}

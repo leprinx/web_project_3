@@ -1,0 +1,35 @@
+.places__list-website {
+    width: calc(100% - 500px);
+    box-sizing: border-box;
+    padding: 0 40px 48px 0;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 1170px) {
+    .places__list-website {
+        width: calc(100% - 472px);
+        padding-left: 32px;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .places__list-website {
+        width: calc(100% - 368px);
+        padding-left: 28px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .places__list-website {
+        max-width: 100%;
+        padding: 0 24px 48px 24px;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .places__list-website {
+        width: calc(100% - 32px);
+        padding: 30px 16px;
+    }
+}

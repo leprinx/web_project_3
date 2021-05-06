@@ -1,0 +1,12 @@
+.places__list-link {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration: underline;
+    color: white;
+}
+
+.places__list-link:hover {
+    opacity: 0.8;
+}

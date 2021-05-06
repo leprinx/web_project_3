@@ -1,0 +1,8 @@
+.cover__content {
+    margin: auto;
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
