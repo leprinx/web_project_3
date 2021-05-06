@@ -7,6 +7,5 @@
 @media screen and (max-width: 425px) {
     .languages__lang-link_active {
         font-size: 18px;
-        line-height: 1.16;
     }
 }
